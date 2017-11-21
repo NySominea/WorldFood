@@ -1,0 +1,11 @@
+.divBody{width: 900px;background: inherit;margin: 30px auto;padding-bottom: 150px}
+
+table{margin: auto;width: 70%;}
+td{padding: 10px;}
+input{width: 50%;padding: 5px;margin: 200px 0}
+
+.divBody table tr td{ padding: 10px}
+.desc{ max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}

@@ -1,0 +1,14 @@
+.divBody{width: 900px;background: floralwhite;margin: 30px}
+table,th {border: 2px solid black}
+.divBody tr td{border: 2px solid black;padding: 5px 0px}
+.divBody h2{color:green;margin-bottom: 5px}
+
+table{ border-collapse: collapse;margin: 10px 0px}
+table th{padding: 5px 5px;}
+.desc{ max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+
+
+.divTable{margin-bottom: 30px}

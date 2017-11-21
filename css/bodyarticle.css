@@ -1,0 +1,23 @@
+.divBody{width: 900px;background: floralwhite;position: relative;margin: 30px auto}
+.divBodyRuler{height: 3px;background: grey;margin-top: 15px;}
+.divBodyArticle{ width: 55%;margin: 30px;}
+.divBodyArticle pre{margin-top: 10px;border: 0;overflow-wrap: break-word;background: white; font-size: 18px;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */}
+.divBodyArticle h4{margin-top: 10px;display: inline-block;}
+.divBodyArticle a{float: right;margin-top: 5px; padding: 5px;background: blue;border-radius: 2px;color: white;text-decoration: none;}
+.divBodyArticle a:hover{background: #0E196D}
+.divBodyArticle i{font-size: 20px; color: white}
+.divBodyArticle img{width: 100%;height: 300px;margin: 10px 0}
+
+/*Body Side*******************/
+
+.divBodySideContent{width: 30%;position: absolute;right: 30px;top: 5px;}
+.divBodySideFoodContent{height: 170px;margin: 10px 0px;padding: 5px;border-radius: 10px;border: 1px solid grey}
+.divBodySideFoodContent img{width: 100%;height: 85%;}
+.divBodySideFoodContent h5 {color: orange;text-decoration: none;margin: 5px;display: inline-block}
+.divBodySideFoodContent a{text-decoration: none;}
+.divBodySideFoodContent i{float:right;margin-left: 15px;margin-top:5px;font-size: 15px;}

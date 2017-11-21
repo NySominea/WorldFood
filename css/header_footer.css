@@ -1,0 +1,51 @@
+body,ul,li,a,div,p,h1,h2,h3,h4,h5,img{padding: 0;margin: 0}
+body{
+    background-color: grey;
+    margin: 0px 0;
+    font-family: sans-serif !important;
+    font-size: 14px;
+}
+.divContainer {
+    width: 960px;
+    margin: auto;
+    background: floralwhite;
+}
+
+/*Header*/
+.divHeader{  width: 100%;  display: inline-block; background: lightyellow  }
+.divHeader img{padding: 35px 50px}
+.divHeaderRight{float: right;margin: 10px;}
+.divIcon{ padding: 5px;text-align: right}
+.divIcon a i{ font-size: 36px;padding:5px 10px;color: lightyellow; border-radius: 10px;}
+.divIcon a i:hover{font-size: 40px}
+.divFormSearch{text-align: right;margin: 10px 5px;padding-right: 10px}
+.divFormSearch input[type=search]{width: 200px;height: 30px;margin: 0;border: 0;border-radius: 3px 0px 0px 3px;background: lightgray;padding-left: 10px}
+.divFormSearch input[type=submit]{margin: 0px;height: 30px;border: 0;background: grey;color: white;border-radius: 0px 3px 3px 0px}
+.divButtonForUser{text-align: right;margin-top: 20px}
+.divButtonForUser a{padding: 6px;text-align: right;background: blue;color: white;margin: 15px 10px 15px 0px;
+        border-radius: 5px;text-decoration: none;border: 1px solid white}
+.divButtonForUser a:hover{font-size: 16px}
+
+.divRuler{ height: 2px;width: 100%;background: grey;}
+
+/*Navigation Bar*/
+.divNavBar{width: 100%;margin: 0;}
+.divNavBar ul{list-style-type: none;text-align: center}
+.divNavBar ul li{display: inline-block;padding: 10px;margin: 0px 30px;}
+.divNavBar ul li a{font-size: 20px;color: black;text-decoration: none;padding: 10px;border-radius: 10px}
+.divNavBar ul li a:hover{background: black;color: white}
+.divNavBar ul li a:active{background: black;color: white}
+.divNavBar ul li a.current, .divNav ul li a.current:hover{
+    background: black;
+    color: white;
+    cursor: default;
+}
+
+
+/*Footer*/
+.divFooter{  width: 100%;background: black;  text-align: center;padding:20px 0 }
+.divFooter h4{margin: 20px}
+.divFooter button{border-radius: 5px;padding: 5px;background: green;color: white;}
+
+
+
